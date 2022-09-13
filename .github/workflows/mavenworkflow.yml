@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: setup jdk 11
+      - name: setup jdk 18
         uses: actions/setup-java@v2
         with: 
           java-version: '11'

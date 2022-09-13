@@ -1,8 +1,15 @@
 GET http://localhost:8080/devops_starter_war_exploded/api/xxx
 
 ###
-POST http://localhost:8080/devops_starter_war_exploded/api/xxx
+POST localhost:8080/startcode3sem_war_exploded/api/emp
 Content-Type: application/json
 #User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
 
-{"str1": "First Property", "str2": "Second Property"}
+{"name": "Lars", "address": "flemmingvej 3", "salery":  "20.5f"}
+
+###
+PUT localhost:8080/startcode3sem_war_exploded/api/emp/5?salery=25000.56
+Content-Type: application/json
+#User-Agent: Mozilla/5.0 (platform; rv:geckoversion) Gecko/geckotrail Firefox/firefoxversion
+
+{"name": "Flemming", "address": "nachovej 3"}
